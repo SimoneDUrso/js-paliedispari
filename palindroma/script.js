@@ -6,6 +6,11 @@ function palindroma(word) {
         console.log(`${word} è palindroma.`)
     }
 
+    else {
+        console.log(`${word} non è palindroma.`)
+    }
 }
+
+
 
 
