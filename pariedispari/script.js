@@ -7,6 +7,7 @@ function comparazione(numeroUtente, numeroComputer) {
     if (somma % 2 != 0) {
         numeroPari = false;
     }
+    console.log(somma)
 }
 
 let pariDispari = prompt("scegli 'PARI' oppure 'DISPARI' ");
@@ -14,6 +15,7 @@ let numeroUtente = parseInt(prompt("Scegli un numero che va da '1' a '5' "));
 
 let numeroPc = numeroComputer();
 console.log(numeroPc)
+console.log(numeroUtente)
 
 let numeroPari = true;
 
